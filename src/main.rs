@@ -3,7 +3,7 @@ mod bar;
 mod get;
 
 fn main() {
-    let matches = Command::new("Rget")
+    let matches = Command::new("Myget")
         .author("Philip Leake")
         .about("wget clone written in Rust")
         .version("0.1.0")

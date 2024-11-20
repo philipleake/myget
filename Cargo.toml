@@ -1,5 +1,5 @@
 [package]
-name = "rget"
+name = "myget"
 version = "0.1.0"
 edition = "2021"
 description = "simple wget clone in rust"

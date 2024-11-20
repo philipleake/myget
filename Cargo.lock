@@ -757,6 +757,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "myget"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "console",
+ "futures-util",
+ "indicatif",
+ "reqwest",
+ "tokio",
+ "url",
+]
+
+[[package]]
 name = "native-tls"
 version = "0.2.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -960,19 +973,6 @@ dependencies = [
  "wasm-bindgen-futures",
  "web-sys",
  "windows-registry",
-]
-
-[[package]]
-name = "rget"
-version = "0.1.0"
-dependencies = [
- "clap",
- "console",
- "futures-util",
- "indicatif",
- "reqwest",
- "tokio",
- "url",
 ]
 
 [[package]]
