@@ -1,4 +1,3 @@
-//extern crate clap;
 use clap::{Arg, Command};
 mod bar;
 mod get;
