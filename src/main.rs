@@ -20,14 +20,12 @@ fn main() {
                 .help("Run in quiet mode, suppressing output"),
         )
         .get_matches();
-    let url = matches.get_one::<String>("URL").expect("required");
-    println!("{}", url);
 
+    let url = matches.get_one::<String>("URL").expect("required");
     let quiet_mode = matches.contains_id("quiet");
 
     println!("Starting download for: {}", url);
 
-    // Call the `download` function
     match get::download(url, quiet_mode) {
         Ok(_) => println!("Download completed successfully."),
         Err(e) => eprintln!("Error: {}", e),
