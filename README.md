@@ -5,5 +5,5 @@
 Via cargo
 
 ```
-cargo install duma
+cargo install myget
 ```
