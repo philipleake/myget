@@ -2,6 +2,15 @@
 name = "rget"
 version = "0.1.0"
 edition = "2021"
+description = "simple wget clone in rust"
+author = "Philip Leake"
+repository = "https://github.com/philipleake/rget"
+homepage = "https://github.com/philipleake/rget"
+documentation = "https://github.com/philipleake/rget"
+readme = "README.md"
+license = "MIT"
+keywords = ["http", "client", "cli", "file", "download"]
+categories = ["web-programming::http-client", "command-line-utilities", "network-programming"]
 
 [dependencies]
 clap = "4.5.21"
